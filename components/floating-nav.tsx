@@ -54,7 +54,7 @@ export function FloatingNav() {
           {isMobile ? (
             <div className="relative flex items-center justify-between">
               <Link href="/" className="font-bold text-lg">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-300 to-gray-400">Miguel</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-700 to-gray-800">Miguel</span>
                 <span className="text-white">Ayala Montoya</span>
               </Link>
               <Button
@@ -69,7 +69,7 @@ export function FloatingNav() {
           ) : (
             <div className="relative flex items-center gap-1">
               <Link href="/" className="font-bold text-lg mr-4">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-300 to-gray-400">Miguel</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-700 to-gray-800">Miguel</span>
                 <span className="text-white">Ayala Montoya</span>
               </Link>
               {navItems.map((item) => (
@@ -84,7 +84,7 @@ export function FloatingNav() {
               ))}
               <Button
                 size="sm"
-                className="ml-2 bg-gradient-to-r from-gray-300 to-gray-400 hover:from-gray-800 hover:to-gray-700 border-0"
+                className="ml-2 bg-gradient-to-r from-gray-700 to-gray-800 hover:from-gray-800 hover:to-gray-700 border-0"
               >
                 Resume
               </Button>
@@ -112,7 +112,7 @@ export function FloatingNav() {
                 {item.name}
               </Link>
             ))}
-            <Button className="mt-6 bg-gradient-to-r from-gray-300 to-gray-400 hover:from-gray-800 hover:to-gray-700 border-0">
+            <Button className="mt-6 bg-gradient-to-r from-gray-700 to-gray-800 hover:from-gray-800 hover:to-gray-700 border-0">
               Resume
             </Button>
           </div>
