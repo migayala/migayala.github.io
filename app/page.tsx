@@ -23,9 +23,9 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+          <div className="absolute top-20 left-10 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
           <div className="absolute top-40 right-10 w-72 h-72 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
-          <div className="absolute bottom-20 left-1/3 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+          <div className="absolute bottom-20 left-1/3 w-72 h-72 bg-gray-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
         </div>
 
         <div className="container relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -33,7 +33,7 @@ export default function Portfolio() {
             <div className="inline-block">
               <div className="relative px-3 py-1 text-sm font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-4">
                 <span className="relative z-10">Software Engineer & Creative Developer</span>
-                <span className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500/20 to-blue-400/20 animate-pulse"></span>
+                <span className="absolute inset-0 rounded-full bg-gradient-to-r from-white/30 to-gray-100/20 animate-pulse"></span>
               </div>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
@@ -117,8 +117,8 @@ export default function Portfolio() {
       {/* About Section */}
       <section id="about" className="py-32 relative">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/3 left-1/3 w-64 h-64 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-white rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute bottom-1/3 left-1/3 w-64 h-64 bg-gray-100 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         </div>
 
         <div className="container relative z-10">
@@ -126,7 +126,7 @@ export default function Portfolio() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-16">
             <div className="relative">
-              <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-blue-500/20 to-blue-400/20 blur-xl opacity-70"></div>
+              <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-white/30 to-gray-100/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
                   src="/placeholder.svg?height=600&width=600"
@@ -190,8 +190,8 @@ export default function Portfolio() {
       {/* Skills Section */}
       <section id="skills" className="py-32 relative">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-gray-200 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-white rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         </div>
 
         <div className="container relative z-10">
@@ -217,7 +217,7 @@ export default function Portfolio() {
       {/* Projects Section */}
       <section id="projects" className="py-32 relative">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-gray-100 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
           <div className="absolute bottom-1/3 right-1/4 w-64 h-64 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         </div>
 
@@ -280,8 +280,8 @@ export default function Portfolio() {
       {/* Experience Section */}
       <section id="experience" className="py-32 relative">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/3 right-1/3 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute top-1/3 right-1/3 w-64 h-64 bg-white rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-gray-200 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         </div>
 
         <div className="container relative z-10">
@@ -296,8 +296,8 @@ export default function Portfolio() {
       {/* Contact Section */}
       <section id="contact" className="py-32 relative">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-gray-100 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-white rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         </div>
 
         <div className="container relative z-10">
