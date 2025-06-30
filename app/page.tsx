@@ -38,7 +38,7 @@ export default function Portfolio() {
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
               <span className="block">Hi, I'm</span>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-700 to-gray-800">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-300 to-gray-400">
                 Miguel Ayala Montoya
               </span>
             </h1>
@@ -46,7 +46,7 @@ export default function Portfolio() {
               I craft exceptional digital experiences with code, creativity, and a passion for innovation.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button className="relative overflow-hidden group bg-gradient-to-r from-gray-700 to-gray-800 border-0">
+              <Button className="relative overflow-hidden group bg-gradient-to-r from-gray-300 to-gray-400 border-0">
                 <span className="relative z-10 flex items-center">
                   View Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </span>
@@ -355,15 +355,15 @@ export default function Portfolio() {
         <div className="container flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
             <Link href="/" className="font-bold text-xl">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-700 to-gray-800">Miguel</span>
-              <span className="text-white">Ayala Montoya</span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-300 to-gray-400">Miguel</span>
+              <span className="text-white"> Ayala Montoya</span>
             </Link>
             <p className="text-sm text-zinc-500 mt-2">
                 © {new Date().getFullYear()} Miguel Ayala Montoya. All rights reserved.
             </p>
           </div>
           <div className="flex gap-4">
-            <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/migayala" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -373,7 +373,7 @@ export default function Portfolio() {
                 <span className="sr-only">GitHub</span>
               </Button>
             </Link>
-            <Link href="https://www.linkedin.com/in/shinekyawkyawaung/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/migayala/" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
                 size="icon"
@@ -393,14 +393,14 @@ export default function Portfolio() {
                 <span className="sr-only">Twitter</span>
               </Button>
             </Link>
-            <Link href="mailto:hello@example.com">
+            <Link href="mailto:ayala.miguel@proton.me">
               <Button
                 variant="ghost"
                 size="icon"
                 className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
               >
                 <Mail className="h-5 w-5" />
-                <span className="sr-only">Email</span>
+                <span className="sr-only">ayala.miguel@proton.me</span>
               </Button>
             </Link>
           </div>
