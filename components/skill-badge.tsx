@@ -16,8 +16,8 @@ export function SkillBadge({ name, level }: SkillBadgeProps) {
       viewport={{ once: true }}
       whileHover={{ y: -5 }}
     >
-      <div className="relative overflow-hidden rounded-xl bg-zinc-800/50 backdrop-blur-sm border border-zinc-700/50 p-6 h-full transition-all duration-300 hover:border-gray-500/50">
-        <div className="absolute -inset-1 bg-gradient-to-r from-gray-500/10 to-gray-400/10 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+      <div className="relative overflow-hidden rounded-xl bg-zinc-800/50 backdrop-blur-sm border border-zinc-700/50 p-6 h-full transition-all duration-300 hover:border-blue-500/50">
+        <div className="absolute -inset-1 bg-gradient-to-r from-blue-500/10 to-blue-400/10 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
 
         <div className="relative">
           <div className="text-center mb-4 font-medium text-lg">{name}</div>

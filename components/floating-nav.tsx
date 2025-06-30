@@ -49,7 +49,7 @@ export function FloatingNav() {
         transition={{ duration: 0.3 }}
       >
         <div className="relative px-4 py-3 rounded-full bg-zinc-800/80 backdrop-blur-md border border-zinc-700/50 shadow-lg">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-gray-500/20 to-gray-400/20 rounded-full blur opacity-50"></div>
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500/20 to-blue-400/20 rounded-full blur opacity-50"></div>
 
           {isMobile ? (
             <div className="relative flex items-center justify-between">
@@ -106,7 +106,7 @@ export function FloatingNav() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="px-8 py-4 text-2xl font-medium text-white hover:text-gray-400 transition-colors"
+                className="px-8 py-4 text-2xl font-medium text-white hover:text-blue-400 transition-colors"
                 onClick={handleNavClick}
               >
                 {item.name}

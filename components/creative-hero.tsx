@@ -61,9 +61,11 @@ export function CreativeHero() {
         this.density = Math.random() * 30 + 1
         this.distance = 0
 
-        // Create neutral gray particles
-        const lightness = Math.random() * 30 + 50 // 50-80 range for various grays
-        this.color = `hsl(0, 0%, ${lightness}%)`
+        // Create blue accent particles
+        const hue = Math.random() * 60 + 200 // 200-260 range for blues
+        const saturation = Math.random() * 50 + 50 // 50-100% saturation
+        const lightness = Math.random() * 30 + 50 // 50-80% lightness
+        this.color = `hsl(${hue}, ${saturation}%, ${lightness}%)`
       }
 
       update() {
@@ -151,7 +153,7 @@ export function CreativeHero() {
 
           if (distance < 30) {
             ctx.beginPath()
-            ctx.strokeStyle = `rgba(150, 150, 150, ${0.2 - distance / 150})`
+            ctx.strokeStyle = `rgba(59, 130, 246, ${0.3 - distance / 150})`
             ctx.lineWidth = 0.5
             ctx.moveTo(particlesArray[i].x, particlesArray[i].y)
             ctx.lineTo(particlesArray[j].x, particlesArray[j].y)
