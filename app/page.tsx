@@ -309,7 +309,7 @@ export default function Portfolio() {
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Mail className="h-5 w-5 text-blue-400" />
+                    <Mail className="h-5 w-5 text-white" />
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">Email</div>
@@ -318,7 +318,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Linkedin className="h-5 w-5 text-blue-400" />
+                    <Linkedin className="h-5 w-5 text-white" />
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">LinkedIn</div>
@@ -327,7 +327,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Github className="h-5 w-5 text-blue-400" />
+                    <Github className="h-5 w-5 text-white" />
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">GitHub</div>
